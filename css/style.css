@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    display: block;
+    padding:10px 100px;
+    background-color:aqua;
+    width: 100%;
+}
+nav ul{
+    display: block;
+    width : 100%;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    display: block;
+    color:black;
+    font-weight: 600;
+    
+}
+.home{
+    display: block;
+    padding:10px 100px;
+    width: 100%;
+}
+.home h1, #gallery h2, .menu h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.home img, .menu img{
+    display: block;
+    width: 100%;
+}
+#gallery{
+    display: block;
+    padding:10px 100px;
+    width: 100%;
+}
+#gallery img{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+.menu{
+    display: block;
+    padding:10px 100px;
+    width: 100%;
+}
+.menu div{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
